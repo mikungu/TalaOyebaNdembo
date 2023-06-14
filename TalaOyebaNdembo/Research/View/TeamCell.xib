@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TeamsCell" rowHeight="100" id="Xa7-yg-otP" customClass="TeamTableViewCell" customModule="TalaOyebaMasano" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="135.33332824707031"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Xa7-yg-otP" id="Liw-b4-b1C">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="135.33332824707031"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="YhU-Jf-Oev">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="135.33333333333334"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NzV-hU-9Ia">
+                                <rect key="frame" x="0.0" y="0.0" width="194" height="135.33333333333334"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KMn-xp-ZJG">
+                                <rect key="frame" x="199" y="0.0" width="194" height="135.33333333333334"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="d5n-Qe-JAW">
+                                        <rect key="frame" x="0.0" y="0.0" width="194" height="135.33333333333334"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YtT-Ra-fcu" userLabel="TeamName">
+                                                <rect key="frame" x="0.0" y="0.0" width="194" height="65.333333333333329"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z5o-wi-P5w" userLabel="TeamLeague">
+                                                <rect key="frame" x="0.0" y="70.333333333333329" width="194" height="64.999999999999986"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="d5n-Qe-JAW" secondAttribute="bottom" id="7aH-q0-Nsn"/>
+                                    <constraint firstItem="d5n-Qe-JAW" firstAttribute="leading" secondItem="KMn-xp-ZJG" secondAttribute="leading" id="C25-Zo-5TZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="d5n-Qe-JAW" secondAttribute="trailing" id="f4V-C3-XkY"/>
+                                    <constraint firstItem="d5n-Qe-JAW" firstAttribute="top" secondItem="KMn-xp-ZJG" secondAttribute="top" id="z48-Kv-sBu"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="YhU-Jf-Oev" firstAttribute="top" secondItem="Liw-b4-b1C" secondAttribute="top" id="658-lK-c4u"/>
+                    <constraint firstItem="YhU-Jf-Oev" firstAttribute="leading" secondItem="Liw-b4-b1C" secondAttribute="leading" id="IjL-Kb-b4Q"/>
+                    <constraint firstAttribute="trailing" secondItem="YhU-Jf-Oev" secondAttribute="trailing" id="Y04-4P-CUq"/>
+                    <constraint firstAttribute="bottom" secondItem="YhU-Jf-Oev" secondAttribute="bottom" id="ba8-o5-2gs"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="51" y="20"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
