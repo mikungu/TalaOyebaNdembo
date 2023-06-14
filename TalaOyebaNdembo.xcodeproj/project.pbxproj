@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		DC6240E62A39EB2E002CEFC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6240E52A39EB2E002CEFC9 /* AppDelegate.swift */; };
 		DC6240E82A39EB2E002CEFC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6240E72A39EB2E002CEFC9 /* SceneDelegate.swift */; };
-		DC6240EA2A39EB2E002CEFC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6240E92A39EB2E002CEFC9 /* ViewController.swift */; };
 		DC6240ED2A39EB2E002CEFC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6240EB2A39EB2E002CEFC9 /* Main.storyboard */; };
 		DC6240EF2A39EB30002CEFC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC6240EE2A39EB30002CEFC9 /* Assets.xcassets */; };
 		DC6240F22A39EB30002CEFC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6240F02A39EB30002CEFC9 /* LaunchScreen.storyboard */; };
@@ -42,6 +41,8 @@
 		DC6241562A3A0427002CEFC9 /* LeagueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6241552A3A0427002CEFC9 /* LeagueTableViewCell.swift */; };
 		DC6241582A3A0450002CEFC9 /* TeamCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC6241572A3A0450002CEFC9 /* TeamCell.xib */; };
 		DC6241602A3A35C6002CEFC9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DC62415F2A3A35C6002CEFC9 /* Alamofire */; };
+		DC62416D2A3A5937002CEFC9 /* FavouriteTeamTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC62416C2A3A5937002CEFC9 /* FavouriteTeamTestCase.swift */; };
+		DC62416F2A3A596D002CEFC9 /* TestFavouriteTeamCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC62416E2A3A596D002CEFC9 /* TestFavouriteTeamCoreData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +66,6 @@
 		DC6240E22A39EB2E002CEFC9 /* TalaOyebaNdembo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalaOyebaNdembo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6240E52A39EB2E002CEFC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC6240E72A39EB2E002CEFC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DC6240E92A39EB2E002CEFC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DC6240EC2A39EB2E002CEFC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC6240EE2A39EB30002CEFC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC6240F12A39EB30002CEFC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -100,6 +100,8 @@
 		DC6241532A3A03F5002CEFC9 /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
 		DC6241552A3A0427002CEFC9 /* LeagueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueTableViewCell.swift; sourceTree = "<group>"; };
 		DC6241572A3A0450002CEFC9 /* TeamCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamCell.xib; sourceTree = "<group>"; };
+		DC62416C2A3A5937002CEFC9 /* FavouriteTeamTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteTeamTestCase.swift; sourceTree = "<group>"; };
+		DC62416E2A3A596D002CEFC9 /* TestFavouriteTeamCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFavouriteTeamCoreData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,7 +169,6 @@
 				DC6241152A39F81E002CEFC9 /* Supporting Files */,
 				DC6240E52A39EB2E002CEFC9 /* AppDelegate.swift */,
 				DC6240E72A39EB2E002CEFC9 /* SceneDelegate.swift */,
-				DC6240E92A39EB2E002CEFC9 /* ViewController.swift */,
 				DC6240EB2A39EB2E002CEFC9 /* Main.storyboard */,
 				DC6240EE2A39EB30002CEFC9 /* Assets.xcassets */,
 				DC6240F02A39EB30002CEFC9 /* LaunchScreen.storyboard */,
@@ -179,6 +180,7 @@
 		DC6240FB2A39EB30002CEFC9 /* TalaOyebaNdemboTests */ = {
 			isa = PBXGroup;
 			children = (
+				DC62416B2A3A57A2002CEFC9 /* FavouriteTeam */,
 				DC6240FC2A39EB31002CEFC9 /* TalaOyebaNdemboTests.swift */,
 			);
 			path = TalaOyebaNdemboTests;
@@ -340,6 +342,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		DC62416B2A3A57A2002CEFC9 /* FavouriteTeam */ = {
+			isa = PBXGroup;
+			children = (
+				DC62416C2A3A5937002CEFC9 /* FavouriteTeamTestCase.swift */,
+				DC62416E2A3A596D002CEFC9 /* TestFavouriteTeamCoreData.swift */,
+			);
+			path = FavouriteTeam;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -486,7 +497,6 @@
 				DC6241452A3A00D5002CEFC9 /* WebViewController.swift in Sources */,
 				DC6241542A3A03F5002CEFC9 /* TeamTableViewCell.swift in Sources */,
 				DC62413D2A3A0027002CEFC9 /* SearchModel.swift in Sources */,
-				DC6240EA2A39EB2E002CEFC9 /* ViewController.swift in Sources */,
 				DC6240E62A39EB2E002CEFC9 /* AppDelegate.swift in Sources */,
 				DC62411C2A39F88F002CEFC9 /* APIService.swift in Sources */,
 				DC62414E2A3A01F1002CEFC9 /* FavouriteTeamsViewController.swift in Sources */,
@@ -512,6 +522,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC62416D2A3A5937002CEFC9 /* FavouriteTeamTestCase.swift in Sources */,
+				DC62416F2A3A596D002CEFC9 /* TestFavouriteTeamCoreData.swift in Sources */,
 				DC6240FD2A39EB31002CEFC9 /* TalaOyebaNdemboTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
