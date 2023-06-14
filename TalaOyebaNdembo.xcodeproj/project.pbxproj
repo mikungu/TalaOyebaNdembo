@@ -12,7 +12,6 @@
 		DC6240ED2A39EB2E002CEFC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6240EB2A39EB2E002CEFC9 /* Main.storyboard */; };
 		DC6240EF2A39EB30002CEFC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC6240EE2A39EB30002CEFC9 /* Assets.xcassets */; };
 		DC6240F22A39EB30002CEFC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6240F02A39EB30002CEFC9 /* LaunchScreen.storyboard */; };
-		DC6240FD2A39EB31002CEFC9 /* TalaOyebaNdemboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6240FC2A39EB31002CEFC9 /* TalaOyebaNdemboTests.swift */; };
 		DC6241072A39EB31002CEFC9 /* TalaOyebaNdemboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6241062A39EB31002CEFC9 /* TalaOyebaNdemboUITests.swift */; };
 		DC6241092A39EB31002CEFC9 /* TalaOyebaNdemboUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6241082A39EB31002CEFC9 /* TalaOyebaNdemboUITestsLaunchTests.swift */; };
 		DC62411C2A39F88F002CEFC9 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC62411B2A39F88F002CEFC9 /* APIService.swift */; };
@@ -50,6 +49,8 @@
 		DC62417A2A3A649B002CEFC9 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = DC6241792A3A649B002CEFC9 /* FirebaseCrashlytics */; };
 		DC62417D2A3A65DA002CEFC9 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DC62417C2A3A65DA002CEFC9 /* FirebaseAnalytics */; };
 		DC62417F2A3A65E7002CEFC9 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = DC62417E2A3A65E7002CEFC9 /* FirebaseCrashlytics */; };
+		DC6241832A3A68C3002CEFC9 /* TestSavedLeagueCoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6241822A3A68C3002CEFC9 /* TestSavedLeagueCoreDataStack.swift */; };
+		DC6241852A3A6924002CEFC9 /* SavedLeagueTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6241842A3A6924002CEFC9 /* SavedLeagueTestCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,7 +79,6 @@
 		DC6240F12A39EB30002CEFC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC6240F32A39EB30002CEFC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC6240F82A39EB30002CEFC9 /* TalaOyebaNdemboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalaOyebaNdemboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC6240FC2A39EB31002CEFC9 /* TalaOyebaNdemboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalaOyebaNdemboTests.swift; sourceTree = "<group>"; };
 		DC6241022A39EB31002CEFC9 /* TalaOyebaNdemboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalaOyebaNdemboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6241062A39EB31002CEFC9 /* TalaOyebaNdemboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalaOyebaNdemboUITests.swift; sourceTree = "<group>"; };
 		DC6241082A39EB31002CEFC9 /* TalaOyebaNdemboUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalaOyebaNdemboUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -110,6 +110,8 @@
 		DC62416C2A3A5937002CEFC9 /* FavouriteTeamTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteTeamTestCase.swift; sourceTree = "<group>"; };
 		DC62416E2A3A596D002CEFC9 /* TestFavouriteTeamCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFavouriteTeamCoreData.swift; sourceTree = "<group>"; };
 		DC6241702A3A635D002CEFC9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "TalaOyebaNdembo/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		DC6241822A3A68C3002CEFC9 /* TestSavedLeagueCoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSavedLeagueCoreDataStack.swift; sourceTree = "<group>"; };
+		DC6241842A3A6924002CEFC9 /* SavedLeagueTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedLeagueTestCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,8 +198,7 @@
 		DC6240FB2A39EB30002CEFC9 /* TalaOyebaNdemboTests */ = {
 			isa = PBXGroup;
 			children = (
-				DC62416B2A3A57A2002CEFC9 /* FavouriteTeam */,
-				DC6240FC2A39EB31002CEFC9 /* TalaOyebaNdemboTests.swift */,
+				DC6241802A3A685E002CEFC9 /* TestCoreData */,
 			);
 			path = TalaOyebaNdemboTests;
 			sourceTree = "<group>";
@@ -372,6 +373,24 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC6241802A3A685E002CEFC9 /* TestCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				DC6241812A3A6881002CEFC9 /* SavedLeague */,
+				DC62416B2A3A57A2002CEFC9 /* FavouriteTeam */,
+			);
+			path = TestCoreData;
+			sourceTree = "<group>";
+		};
+		DC6241812A3A6881002CEFC9 /* SavedLeague */ = {
+			isa = PBXGroup;
+			children = (
+				DC6241822A3A68C3002CEFC9 /* TestSavedLeagueCoreDataStack.swift */,
+				DC6241842A3A6924002CEFC9 /* SavedLeagueTestCase.swift */,
+			);
+			path = SavedLeague;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -557,7 +576,8 @@
 			files = (
 				DC62416D2A3A5937002CEFC9 /* FavouriteTeamTestCase.swift in Sources */,
 				DC62416F2A3A596D002CEFC9 /* TestFavouriteTeamCoreData.swift in Sources */,
-				DC6240FD2A39EB31002CEFC9 /* TalaOyebaNdemboTests.swift in Sources */,
+				DC6241852A3A6924002CEFC9 /* SavedLeagueTestCase.swift in Sources */,
+				DC6241832A3A68C3002CEFC9 /* TestSavedLeagueCoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
