@@ -51,6 +51,11 @@
 		DC62417F2A3A65E7002CEFC9 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = DC62417E2A3A65E7002CEFC9 /* FirebaseCrashlytics */; };
 		DC6241832A3A68C3002CEFC9 /* TestSavedLeagueCoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6241822A3A68C3002CEFC9 /* TestSavedLeagueCoreDataStack.swift */; };
 		DC6241852A3A6924002CEFC9 /* SavedLeagueTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6241842A3A6924002CEFC9 /* SavedLeagueTestCase.swift */; };
+		DC6241882A3A6B23002CEFC9 /* SearchModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6241872A3A6B23002CEFC9 /* SearchModelTest.swift */; };
+		DC62418A2A3A6B67002CEFC9 /* FakeResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6241892A3A6B67002CEFC9 /* FakeResponseData.swift */; };
+		DC62418C2A3A6BD1002CEFC9 /* TheSportsDBLeague.json in Resources */ = {isa = PBXBuildFile; fileRef = DC62418B2A3A6BD1002CEFC9 /* TheSportsDBLeague.json */; };
+		DC62418F2A3A6C57002CEFC9 /* TestLeagueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC62418E2A3A6C57002CEFC9 /* TestLeagueModel.swift */; };
+		DC6241912A3A6C9F002CEFC9 /* TheSportsDB.json in Resources */ = {isa = PBXBuildFile; fileRef = DC6241902A3A6C9F002CEFC9 /* TheSportsDB.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +117,11 @@
 		DC6241702A3A635D002CEFC9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "TalaOyebaNdembo/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		DC6241822A3A68C3002CEFC9 /* TestSavedLeagueCoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSavedLeagueCoreDataStack.swift; sourceTree = "<group>"; };
 		DC6241842A3A6924002CEFC9 /* SavedLeagueTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedLeagueTestCase.swift; sourceTree = "<group>"; };
+		DC6241872A3A6B23002CEFC9 /* SearchModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModelTest.swift; sourceTree = "<group>"; };
+		DC6241892A3A6B67002CEFC9 /* FakeResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeResponseData.swift; sourceTree = "<group>"; };
+		DC62418B2A3A6BD1002CEFC9 /* TheSportsDBLeague.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TheSportsDBLeague.json; sourceTree = "<group>"; };
+		DC62418E2A3A6C57002CEFC9 /* TestLeagueModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLeagueModel.swift; sourceTree = "<group>"; };
+		DC6241902A3A6C9F002CEFC9 /* TheSportsDB.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TheSportsDB.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +208,8 @@
 		DC6240FB2A39EB30002CEFC9 /* TalaOyebaNdemboTests */ = {
 			isa = PBXGroup;
 			children = (
+				DC62418D2A3A6C0B002CEFC9 /* TestLeagueSearchModel */,
+				DC6241862A3A6AEF002CEFC9 /* TestSearchModel */,
 				DC6241802A3A685E002CEFC9 /* TestCoreData */,
 			);
 			path = TalaOyebaNdemboTests;
@@ -393,6 +405,25 @@
 			path = SavedLeague;
 			sourceTree = "<group>";
 		};
+		DC6241862A3A6AEF002CEFC9 /* TestSearchModel */ = {
+			isa = PBXGroup;
+			children = (
+				DC6241872A3A6B23002CEFC9 /* SearchModelTest.swift */,
+				DC6241892A3A6B67002CEFC9 /* FakeResponseData.swift */,
+				DC62418B2A3A6BD1002CEFC9 /* TheSportsDBLeague.json */,
+			);
+			path = TestSearchModel;
+			sourceTree = "<group>";
+		};
+		DC62418D2A3A6C0B002CEFC9 /* TestLeagueSearchModel */ = {
+			isa = PBXGroup;
+			children = (
+				DC62418E2A3A6C57002CEFC9 /* TestLeagueModel.swift */,
+				DC6241902A3A6C9F002CEFC9 /* TheSportsDB.json */,
+			);
+			path = TestLeagueSearchModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -526,6 +557,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6241912A3A6C9F002CEFC9 /* TheSportsDB.json in Resources */,
+				DC62418C2A3A6BD1002CEFC9 /* TheSportsDBLeague.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,9 +608,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC62416D2A3A5937002CEFC9 /* FavouriteTeamTestCase.swift in Sources */,
+				DC6241882A3A6B23002CEFC9 /* SearchModelTest.swift in Sources */,
 				DC62416F2A3A596D002CEFC9 /* TestFavouriteTeamCoreData.swift in Sources */,
 				DC6241852A3A6924002CEFC9 /* SavedLeagueTestCase.swift in Sources */,
 				DC6241832A3A68C3002CEFC9 /* TestSavedLeagueCoreDataStack.swift in Sources */,
+				DC62418F2A3A6C57002CEFC9 /* TestLeagueModel.swift in Sources */,
+				DC62418A2A3A6B67002CEFC9 /* FakeResponseData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
