@@ -7,6 +7,7 @@
 
 import Foundation
 @testable import TalaOyebaNdembo
+import Firebase
 import CoreData
 import XCTest
 

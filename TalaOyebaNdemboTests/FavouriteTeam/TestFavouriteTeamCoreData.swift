@@ -8,6 +8,7 @@
 import Foundation
 import CoreData
 @testable import TalaOyebaNdembo
+import Firebase
 
 class TestFavouriteTeamCoreDataStack {
     // MARK: -Core Data Stack
