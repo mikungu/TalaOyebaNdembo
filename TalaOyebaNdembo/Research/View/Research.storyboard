@@ -32,7 +32,7 @@
         <!--Search by Leagues-->
         <scene sceneID="ATB-UO-0jb">
             <objects>
-                <viewController id="775-op-mqE" customClass="LeagueSearchViewController" customModule="TalaOyebaMasano" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="775-op-mqE" customClass="LeagueSearchViewController" customModule="TalaOyebaNdembo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2hQ-TQ-INc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -41,7 +41,7 @@
                                 <rect key="frame" x="0.0" y="103" width="393" height="715"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="LeaguesCell" rowHeight="70" id="gji-E2-Zcr" customClass="LeagueTableViewCell" customModule="TalaOyebaMasano" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="LeaguesCell" rowHeight="70" id="gji-E2-Zcr" customClass="LeagueTableViewCell" customModule="TalaOyebaNdembo" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gji-E2-Zcr" id="vmk-0I-8uw">
@@ -95,7 +95,7 @@
         <!--Select Team-->
         <scene sceneID="imT-VE-aLd">
             <objects>
-                <viewController id="kja-Ad-7LB" customClass="SearchTeamsViewController" customModule="TalaOyebaMasano" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="kja-Ad-7LB" customClass="SearchTeamsViewController" customModule="TalaOyebaNdembo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PVn-Bb-1UV">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -104,7 +104,7 @@
                                 <rect key="frame" x="0.0" y="103" width="393" height="666"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TeamsCell" rowHeight="130" id="DWk-hv-e59" customClass="TeamTableViewCell" customModule="TalaOyebaMasano" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TeamsCell" rowHeight="130" id="DWk-hv-e59" customClass="TeamTableViewCell" customModule="TalaOyebaNdembo" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="130"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DWk-hv-e59" id="BsC-cs-4jJ">
@@ -192,7 +192,7 @@
         <!--Details Teams View Controller-->
         <scene sceneID="ftN-XO-zG8">
             <objects>
-                <viewController storyboardIdentifier="DetailTeam" id="pWH-uF-x8I" customClass="DetailsTeamsViewController" customModule="TalaOyebaMasano" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailTeam" id="pWH-uF-x8I" customClass="DetailsTeamsViewController" customModule="TalaOyebaNdembo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tk3-09-q6S">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -261,9 +261,7 @@
                                                                     <constraint firstAttribute="width" constant="47" id="pTu-Dd-buO"/>
                                                                 </constraints>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain">
-                                                                    <backgroundConfiguration key="background" image="hand.thumbsup.fill" catalog="system"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" image="hand.thumbsup.fill" catalog="system"/>
                                                                 <connections>
                                                                     <action selector="makeFavourite:" destination="pWH-uF-x8I" eventType="touchUpInside" id="ej6-2Y-AS2"/>
                                                                 </connections>

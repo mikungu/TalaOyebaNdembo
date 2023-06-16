@@ -32,7 +32,7 @@
         <!--Your Team's List-->
         <scene sceneID="2jp-bI-Cs8">
             <objects>
-                <viewController storyboardIdentifier="listTeamFavourite" id="HQZ-Au-Jiu" customClass="FavouriteTeamsViewController" customModule="TalaOyebaMasano" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="listTeamFavourite" id="HQZ-Au-Jiu" customClass="FavouriteTeamsViewController" customModule="TalaOyebaNdembo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JmZ-gH-Ol7">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -41,7 +41,7 @@
                                 <rect key="frame" x="0.0" y="103" width="393" height="666"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FavouriteTeamsCell" rowHeight="130" id="mbn-05-uMz" customClass="TeamTableViewCell" customModule="TalaOyebaMasano" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FavouriteTeamsCell" rowHeight="130" id="mbn-05-uMz" customClass="TeamTableViewCell" customModule="TalaOyebaNdembo" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="130"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mbn-05-uMz" id="GfJ-AJ-myk">
@@ -129,7 +129,7 @@
         <!--Team in your List-->
         <scene sceneID="Pkt-lM-ncf">
             <objects>
-                <viewController storyboardIdentifier="DetailTeamFavorite" id="AKk-Lz-cfv" customClass="DetailsTeamsViewController" customModule="TalaOyebaMasano" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailTeamFavorite" id="AKk-Lz-cfv" customClass="DetailsTeamsViewController" customModule="TalaOyebaNdembo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0z4-wa-i0G">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -198,9 +198,7 @@
                                                                     <constraint firstAttribute="height" constant="40" id="PBa-xQ-YZh"/>
                                                                 </constraints>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain">
-                                                                    <backgroundConfiguration key="background" image="hand.thumbsup.fill" catalog="system"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" image="hand.thumbsup.fill" catalog="system"/>
                                                                 <connections>
                                                                     <action selector="makeFavourite:" destination="AKk-Lz-cfv" eventType="touchUpInside" id="Bh7-ES-7Pg"/>
                                                                 </connections>
