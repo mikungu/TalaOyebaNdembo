@@ -40,11 +40,9 @@ class WebViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
         
-       // view.addSubview(webView)
         webView.load(URLRequest(url: url))
         configureButtons ()
         
-        //self.view.addSubview(self.createSpinnerFooter())
         loadNetworkWebView()
     }
     
